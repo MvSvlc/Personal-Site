@@ -1,0 +1,18 @@
+.home {
+    text-align: center;
+}
+
+.home > h2 {
+    font-size: 3em;
+    display: grid;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: minmax(20px, 1fr) auto minmax(20px, 1fr);
+    grid-gap: 40px;
+}
+
+.home > h2:before, h2:after {
+    content: '';
+    border-top: 2px solid;
+}
